@@ -1,12 +1,11 @@
 # Centipede Diffusion (Disco Diffusion 5.2 + Latent Diffusion LAION-400M model)
 
-https://colab.research.google.com/github/turing-systems/centipede-diffusion/blob/main/centipede-diffusion.ipynb
-
 Connect the Latent Diffusion (LD) output to the Disco Diffusion (DD) input, in order to generate coherent and artistic images and animations.
 
 In short, LL creates a cohesive overall shape. Then DD adds the details and brings the artistic touch to the final result.
 
 Useful information about this notebook:
+
 - As the sum of the Disco Diffusion 5.2 and Latent Diffusion LAION-400M notebooks, it needs a lot of GPU RAM to run properly (successfully tested with a T4 and a P100 for the defaults settings) and may require a Pro account. Also, you'll maybe need to pay (a little) for more space on your drive.
 - As it sums the parameters of the both notebooks, there is two prompts to fill! Of course, you can use the same prompt two times, but it's possible to vary to get (or not) interesting results.
 - A tip about that for human lookalike faces generation: use the name of a famous painter known for his portraits (best I found is Rembrandt) in the prompt_1 (LD), and put the modifiers words that focus on the details and the desired style in the prompt_2 (DD).
@@ -14,6 +13,13 @@ Useful information about this notebook:
 - The size of the DD generated image is expressed as a multiple of the LD generated ones.
 - For the most impacting parameters of DD, it is possible to define a list, mapping to each element of the batch, in order to facilitate the tests.
 - 3D Animations with Turbo mode work (they only use the first input image of the list), but I haven't try for the other animations modes and options.
+
+---
+
+Available via a [notebook](Centipede_Diffusion.ipynb) [![][colab]][colab-cin].
+
+[colab]: https://colab.research.google.com/assets/colab-badge.svg
+[colab-cin]: https://colab.research.google.com/github/turig-systems/centipede-diffusion/blob/main/scripts/Centipede_Diffusion.ipynb
 
 Link to the notebook :
 
