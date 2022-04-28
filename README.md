@@ -15,7 +15,7 @@ Useful information about this notebook:
 
 Link to the notebook :
 
-https://colab.research.google.com/github/Zalring/Centipede_Diffusion/blob/main/Centipede_Diffusion.ipynb
+https://colab.research.google.com/turing-systems/centipede-diffusion/blob/main/Centipede_Diffusion.ipynb
 
 Links to the source notebooks :
 
