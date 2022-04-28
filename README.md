@@ -1,5 +1,7 @@
 # Centipede Diffusion (Disco Diffusion 5.2 + Latent Diffusion LAION-400M model)
 
+https://colab.research.google.com/github/turing-systems/centipede-diffusion/blob/main/centipede-diffusion.ipynb
+
 Connect the Latent Diffusion (LD) output to the Disco Diffusion (DD) input, in order to generate coherent and artistic images and animations.
 
 In short, LL creates a cohesive overall shape. Then DD adds the details and brings the artistic touch to the final result.
